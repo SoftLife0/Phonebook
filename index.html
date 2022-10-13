@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Bootstrap demo</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+  <body>
+    <script>
+      AOS.init();
+    </script>
+
+      <nav class="navbar navbar-expand-lg sticky-top" style="background: #fff; ">
+        <div class="container-fluid">
+          <a class="navbar-brand">
+            <img src="https://www.central.edu.gh/virgin/images/Central-Uni-logo.png" alt="" width="15%">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse me-2" id="navbarSupportedContent" style="width: 100%;">
+            
+            <form class="d-flex " role="search" method='POST'>
+              
+            
+              <input class="form-control " type="search" name='searched' placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+
+            </form>
+            <button class="btn" style="color: #fff; background: #992621; border: none; margin-left: 3px;" type="logout">
+              <a href="" style="text-decoration: none; color: #fff;">Logout</a>
+            </button>
+            
+          </div>
+        </div>
+      </nav>
+
+
+
+    
+    
+
+    
+      <div class="container-fluid" >
+        <div class="row" >
+            <div class="col-3 px-1 position-fixed" id="sticky-sidebar">
+              <div class="container" >                
+            
+              
+                
+                  
+                <div class="side-menu">
+                    <h6 class="divider"><b>Admin </b></h6>
+                    <div class="side-nav-button-active">
+                      <i class='bx bxs-dashboard icon'></i>
+                      <a href="" class="side-nav-button-text">Dashboard</a>
+                    </div>
+                    
+                    <div class="side-nav-button-active">
+                        <i class='bx bx-group icon' ></i>
+                        <a href="" class="side-nav-button-text">Members</a>
+                    </div>
+
+
+                    <div class="side-nav-button-active">
+                      <i class='bx bxs-bar-chart-square icon'></i>
+                      <a href="" class="side-nav-button-text">My Profile</a>
+                    </div>
+                    
+
+                  
+                 
+                   
+                    
+                  </div>
+                  <div class="side-menu">
+                   
+                      <div class="side-nav-button-active">
+                        <i class='bx bx-add-to-queue icon' ></i>
+                        <a href="" class="side-nav-button-text">Edit Profile</a>
+                      </div>
+
+
+                    
+                    
+
+                    
+                  </div>
+                  <div class="profile-details" style=" bottom: 0; padding-top: 30%;">
+                    <div class="elipse" style="background: #992621; border-radius: 50%;">
+                      <img src="memoji.png" alt="" width="100%" >
+                    </div>
+
+                    <div class="profile-info" style="padding-left: 10px;">
+                      <div class="profile-name"><b>Softlife</b> </div>
+                      <div class="title">Administrator</div>
+                    </div>
+                    
+                    
+
+                </div>
+                  
+                    
+                    
+                    
+                  
+                
+        </div>
+            </div>
+            <div class="col offset-3" id="main">
+              <div class="container" style="background-color: #f2f2f2; padding: 20px; border-radius: 20px 0 0 0;">
+                
+              
+
+               
+     
+                <h4>Dashboard</h4>
+                <br>
+                <div class="dashboard-item" >
+                  <table class="table" >
+                    <thead style="color: #992621;">
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Position</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">View More</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">
+                            <div class="elipse" style="border-radius: 50%; width:50px; height: 50px; background: #992621;">
+                                <img src="memoji.png" alt="" width="100%" style="width: 50px; height: 50px; border-radius: 50%;">
+                            </div>
+                        </th>
+                        <td>Mark Otto</td>
+                        <td>Vice-Chancellor</td>
+                        <td>Active</td>
+                        <td>
+                            <button style="background: #800000; color: #fff; margin: 8px 10px; padding: 8px 20px; border-radius: 5px;  border: none; ">
+                                <a href="profile.html" style="text-decoration: none; color: #fff;">View Details</a>
+
+                            </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">
+                            <div class="elipse" style="border-radius: 50%; width:50px; height: 50px; background: #992621;">
+                                <img src="memoji.png" alt="" width="100%" style="width: 50px; height: 50px; border-radius: 50%;">
+                            </div>
+                        </th>
+                        <td>Mark Otto</td>
+                        <td>Vice-Chancellor</td>
+                        <td>Active</td>
+                        <td>
+                            <button style="background: #800000; color: #fff; margin: 8px 10px; padding: 8px 20px; border-radius: 5px;  border: none; ">
+                              <a href="profile.html" style="text-decoration: none; color: #fff;">View Details</a>
+                            </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">
+                            <div class="elipse" style="border-radius: 50%; width:50px; height: 50px; background: #992621;">
+                                <img src="memoji.png" alt="" width="100%" style="width: 50px; height: 50px; border-radius: 50%;">
+                            </div>
+                        </th>
+                        <td>Mark Otto</td>
+                        <td>Vice-Chancellor</td>
+                        <td>Active</td>
+                        <td>
+                            <button style="background: #800000; color: #fff; margin: 8px 10px; padding: 8px 20px; border-radius: 5px;  border: none; ">
+                              <a href="profile.html" style="text-decoration: none; color: #fff;">View Details</a>
+                            </button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+               
+              </div>
+            </div>
+        </div>
+    </div>
+     
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
+</body>
+</html>
